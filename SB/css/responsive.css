@@ -1,0 +1,33 @@
+@media(max-width:768px){
+
+  header{
+    flex-direction:column;
+    padding:12px 20px;
+  }
+
+  header h2{
+    font-size:18px;
+    margin-bottom:8px;
+  }
+
+  header nav a{
+    font-size:13px;
+    margin:0 8px;
+  }
+
+  .hero-content{
+    width:90%;
+  }
+
+  .hero-content h1{
+    font-size:32px;
+  }
+
+  .tagline{
+    font-size:26px;
+  }
+
+  .hero-content p{
+    font-size:14px;
+  }
+}
