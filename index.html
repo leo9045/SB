@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Suraj Band – Turning Moments Into Memories</title>
+<title>Suraj Band</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/responsive.css">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Great+Vibes&display=swap" rel="stylesheet">
@@ -11,37 +11,58 @@
 
 <body>
 
-<section class="hero">
-
-<video autoplay muted loop playsinline>
-  <source src="assets/9.mp4" type="video/mp4">
-</video>
-
-<div class="overlay"></div>
-
-<header>
+<header class="top-header">
   <h2>SURAJ BAND</h2>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
 
-<div class="hero-content">
-  <h1>SURAJ BAND</h1>
-  <div class="tagline">Turning Moments Into Memories</div>
-  <p>
-    For over a decade, Suraj Band has been the heartbeat of weddings,
-    celebrations and grand processions. We don’t just play music —
-    we create emotions, traditions and unforgettable memories.
-  </p>
-  <a href="about.html" class="btn">Explore Our Story</a>
-</div>
+<section id="home" class="hero" style="background:url('assets/theme\ pic.png') center/cover no-repeat;">
+  <div class="hero-overlay"></div>
+  <div class="hero-text">
+    <h1>SURAJ BAND</h1>
+    <div class="tagline">Turning Moments Into Memories</div>
+    <p>We create emotions, traditions and unforgettable wedding moments.</p>
+  </div>
+</section>
 
+<section id="services" class="section">
+  <h2>Our Services</h2>
+  <div class="service-grid">
+    <div class="card">🎧 DJ Night</div>
+    <div class="card">🎺 Royal Wedding Band</div>
+    <div class="card">🥁 Punjabi Dhol & Beats</div>
+  </div>
+</section>
+
+<section id="gallery" class="section light">
+  <h2>Gallery</h2>
+  <div class="gallery-grid">
+    <img src="assets/2.jpeg">
+    <img src="assets/4.jpeg">
+    <img src="assets/3.jpeg">
+    <video controls src="assets/9.mp4"></video>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-box">
+    <h3>Contact Us</h3>
+    <p>📞 +91 98765 43210</p>
+    <p>📧 info@surajband.com</p>
+    <p>📍 Pan India Service Available</p>
+  </div>
 </section>
 
 <script src="js/main.js"></script>
+<div class="floating-buttons">
+  <a href="tel:919876543210" class="float-btn call">📞 Call Me</a>
+  <a href="https://wa.me/919876543210" target="_blank" class="float-btn wa">💬 WhatsApp Me</a>
+</div>
+
 </body>
 </html>
