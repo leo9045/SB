@@ -1,1 +1,1 @@
-console.log("Suraj Band Elegant Theme Loaded");
+console.log("Suraj Band Website Ready");
